@@ -21,18 +21,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0724-find-pivot-index) |
 | [0978-valid-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0978-valid-mountain-array) |
+| [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -49,7 +48,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 ## Prefix Sum
 |  |
@@ -62,13 +60,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
-## Binary Search
+| [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
+## Geometry
 |  |
 | ------- |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0268-missing-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0268-missing-number) |
+| [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 <!---LeetCode Topics End-->
