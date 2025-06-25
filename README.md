@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2844-sum-of-squares-of-special-elements](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2844-sum-of-squares-of-special-elements) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2876-number-of-employees-who-met-the-target) |
 ## Hash Table
 |  |
@@ -112,4 +113,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Enumeration
+|  |
+| ------- |
+| [2844-sum-of-squares-of-special-elements](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2844-sum-of-squares-of-special-elements) |
 <!---LeetCode Topics End-->
