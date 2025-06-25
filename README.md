@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0021-merge-two-sorted-lists) |
+| [0061-rotate-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0061-rotate-list) |
 | [0203-remove-linked-list-elements](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0203-remove-linked-list-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0061-rotate-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0167-two-sum-ii-input-array-is-sorted) |
