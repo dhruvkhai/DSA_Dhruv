@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
+| [0978-valid-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0978-valid-mountain-array) |
 ## Hash Table
 |  |
 | ------- |
