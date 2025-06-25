@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0978-valid-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0978-valid-mountain-array) |
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union Find
 |  |
 | ------- |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
 | ------- |
