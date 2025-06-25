@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
+| [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0908-middle-of-the-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Union Find
