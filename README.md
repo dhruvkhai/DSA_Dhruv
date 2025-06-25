@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
+| [2748-calculate-delayed-arrival-time](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2748-calculate-delayed-arrival-time) |
 ## Geometry
 |  |
 | ------- |
