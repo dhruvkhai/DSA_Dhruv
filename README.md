@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
 ## Two Pointers
 |  |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 ## Prefix Sum
 |  |
@@ -85,4 +88,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0136-single-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
