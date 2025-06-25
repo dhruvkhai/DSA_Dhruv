@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
+| [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0136-single-number) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 ## Prefix Sum
