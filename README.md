@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0061-rotate-list) |
 | [0203-remove-linked-list-elements](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0203-remove-linked-list-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0908-middle-of-the-linked-list) |
+| [1765-merge-in-between-linked-lists](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
