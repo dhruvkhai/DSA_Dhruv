@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
 | [0724-find-pivot-index](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0724-find-pivot-index) |
+| [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0978-valid-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0978-valid-mountain-array) |
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 ## Enumeration
 |  |
 | ------- |
