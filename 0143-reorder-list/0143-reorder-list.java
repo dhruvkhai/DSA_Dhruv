@@ -10,51 +10,6 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        // ListNode temp = head; 
-        // HashMap<Integer,ListNode> map = new HashMap<>();
-        // int cnt = 1;
-        // while(temp.next != null){
-        //     temp = temp.next;
-        //     cnt++;
-        // }
-        // int val = 0;
-        // temp = head;
-        // for(int i = 1; i<= cnt; i++){
-        //     map.put(val++,temp);
-        //     temp = temp.next;
-        // }
-        // int steps;
-        // if(cnt%2 == 0){
-        //     steps = cnt/2;
-        // }else{
-        //     steps = cnt/2 + 1;
-        // }
-        // temp = head;
-        // cnt = 2;
-        // ListNode prev = temp;
-        // temp = temp.next;
-        // while(val > steps){
-        //     if(cnt%2 != 0){
-        //         prev.next.next = temp;
-        //         prev = prev.next.next;
-        //         temp = temp.next;
-        //         cnt++;
-        //     }else{
-        //         prev.next = map.get(val);
-        //         prev.next.next = temp;
-        //         prev = prev.next;
-        //         temp = temp.next;
-        //         cnt++;
-        //         val--;
-        //     }
-        // }
-        // prev.next = null;
-
-
-
-
-
-
         ListNode temp = head; 
         HashMap<Integer,ListNode> map = new HashMap<>();
         // count nodes
