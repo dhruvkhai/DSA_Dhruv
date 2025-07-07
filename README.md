@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
+| [0540-single-element-in-a-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0540-single-element-in-a-sorted-array) |
 | [0724-find-pivot-index](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0724-find-pivot-index) |
 | [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0540-single-element-in-a-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Enumeration
