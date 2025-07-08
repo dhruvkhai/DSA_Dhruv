@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0978-valid-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0978-valid-mountain-array) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Enumeration
 |  |
 | ------- |
