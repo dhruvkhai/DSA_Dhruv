@@ -1,23 +1,22 @@
 class Solution {
     public boolean searchMatrix(int[][] mat, int target) {
         int m = mat.length, n = mat[0].length;
-        int[] newarr = new int[m*n];
-        int index = 0;
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-            newarr[index++] = mat[i][j];
+        for (int row = 0; row < m; row++) {
+            if(check(mat[row],target)){
+                return true;
             }
         }
-        Arrays.sort(newarr);
-
-        int low = 0, high = m*n - 1;
+        return false;
+    }
+    public static boolean check(int[] mat,int target){
+        int n = mat.length;
+        int low = 0, high = n- 1;
         while(low <= high){
             int mid = low + (high - low)/2;
-            if(newarr[mid] == target){
+            if(mat[mid] == target){
                 return true;
             }else{
-                if(newarr[mid] < target) low = mid+1;
+                if(mat[mid] < target) low = mid+1;
                 else high = mid - 1;
             }
         }
