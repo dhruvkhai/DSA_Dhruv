@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1115-valid-boomerang](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1115-valid-boomerang) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2048-build-array-from-permutation](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2048-build-array-from-permutation) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2844-sum-of-squares-of-special-elements](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2844-sum-of-squares-of-special-elements) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 ## Math
 |  |
 | ------- |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 ## Enumeration
 |  |
 | ------- |
