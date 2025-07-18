@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0035-search-insert-position) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
