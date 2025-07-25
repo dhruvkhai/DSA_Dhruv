@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0724-find-pivot-index) |
 | [0792-binary-search](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0724-find-pivot-index) |
 ## Greedy
 |  |
