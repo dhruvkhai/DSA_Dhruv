@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0217-contains-duplicate) |
 | [0240-search-a-2d-matrix-ii](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0217-contains-duplicate) |
 | [0500-keyboard-row](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0500-keyboard-row) |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0217-contains-duplicate) |
 | [0455-assign-cookies](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0455-assign-cookies) |
 ## Prefix Sum
 |  |
