@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0143-reorder-list) |
+| [0232-implement-queue-using-stacks](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0232-implement-queue-using-stacks) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -194,4 +195,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0240-search-a-2d-matrix-ii) |
+## Design
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0232-implement-queue-using-stacks) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/dhruvkhai/DSA_Dhruv/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
