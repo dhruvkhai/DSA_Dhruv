@@ -3,25 +3,23 @@ import java.util.*;
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
-        backtrack(ans, "", 0, 0, n);
+        char[] str = new char[n*2];
+        func(ans,0, str,n,n);
         return ans;
     }
 
-    private void backtrack(List<String> ans, String cur, int open, int close, int max) {
-        // If the string is complete
-        if (cur.length() == max * 2) {
-            ans.add(cur);
+    public void func(List<String> ans, int start, char[] str, int open, int close){
+        if(open == 0 && close == 0){
+            ans.add(new String(str));
             return;
         }
-
-        // If we can still add an opening bracket
-        if (open < max) {
-            backtrack(ans, cur + "(", open + 1, close, max);
+        if(open > 0){
+            str[start] = '(';
+            func(ans, start+1, str, open-1, close);
         }
-
-        // If we can add a closing bracket
-        if (close < open) {
-            backtrack(ans, cur + ")", open, close + 1, max);
+        if(close > open){
+            str[start] = ')';
+            func(ans, start+1, str, open, close-1);
         }
     }
 }
