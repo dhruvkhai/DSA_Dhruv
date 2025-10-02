@@ -10,7 +10,7 @@ class Solution {
             ans.add(String.join(" ", str));
             return;
         }
-        for(int j = i; j <= s.length(); j++)
+        for(int j = i+1; j <= s.length(); j++)
         {
             String word = s.substring(i, j);
             if(wordDictMap.contains(word)){
