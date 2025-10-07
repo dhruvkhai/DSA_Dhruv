@@ -3,30 +3,21 @@ import java.util.*;
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        backtrack(candidates, target, 0, new ArrayList<>(), result);
+        func(candidates, target, new ArrayList<>(), result, 0);
         return result;
     }
-
-    private void backtrack(int[] candidates, int target, int index, List<Integer> current, List<List<Integer>> result) {
-        // base case: target reached
-        if (target == 0) {
-            result.add(new ArrayList<>(current));
+    void func(int[] candidates, int remaining, List<Integer> list, List<List<Integer>> result, int start){
+        if(remaining == 0){
+            result.add(new ArrayList<>(list));
             return;
         }
-
-        // base case: out of bounds
-        if (index >= candidates.length) {
+        if(remaining < 0){
             return;
         }
-
-        // Choice 1: include current number (if still valid)
-        if (candidates[index] <= target) {
-            current.add(candidates[index]);
-            backtrack(candidates, target - candidates[index], index, current, result); // reuse allowed
-            current.remove(current.size() - 1); // backtrack
+        for(int i = start; i < candidates.length; i++){
+            list.add(candidates[i]);
+            func(candidates, remaining - candidates[i], list, result , i);
+            list.remove(list.size() - 1);
         }
-
-        // Choice 2: skip current number
-        backtrack(candidates, target, index + 1, current, result);
     }
 }
