@@ -1,19 +1,17 @@
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         int n = s.length(), l = 0, r = l + 10 - 1;
-        Map<String, Integer> map = new HashMap<>();
+        Set<String> seen = new HashSet<>();
+        Set<String> repeated = new HashSet<>();
         while(r < n){
             String key = s.substring(l,r+1);
-            map.put(key , map.getOrDefault(key, 0) +1);
+            if(!seen.add(key)){
+                repeated.add(key);
+            }
             l++;
             r++;
         }
-        List<String> list = new ArrayList();
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > 1) {
-                list.add(entry.getKey());
-            }
-        }
+        List<String> list = new ArrayList(repeated);
         return list;
     }
 }
