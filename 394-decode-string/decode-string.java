@@ -1,65 +1,46 @@
+import java.util.Stack;
+
 class Solution {
     public String decodeString(String s) {
-        Stack<Integer> countStack = new Stack<>();
-        Stack<String> strStack = new Stack<>();
-        String str = "";
-        int count = 0;
-        for(int i = 0 ; i < s.length() ; i++)
-        {
-            char c = s.charAt(i);
-            if(c >= '0' && c <= '9'){
-                count = count * 10 + (c - '0');
-            }
-            else if(c == '['){
-                strStack.push(str);
-                countStack.push(count);
-                count = 0;
-                str = "";
-            }
-            else if(c == ']'){
-                String str2 = new String();
-                int repeat = countStack.pop();
-                String prev = strStack.pop();
-                for(int j = 0 ; j < repeat ; j++)
-                {
-                    str2 = str2 + str;
+        int n = s.length();
+        Stack<String> st = new Stack<>();
+        char c[] = s.toCharArray();
+        int i = 0;
+        while (i < n) {
+            if(Character.isDigit(c[i])){
+                int k = 0;
+                while (Character.isDigit(c[i]) && i < n) {
+                    k = (c[i] - '0') + k * 10;
+                    i++;
                 }
-                str = prev + str2;
+                st.push(String.valueOf(k));
             }
-            else{
-                str = str + c ;
+            
+            else if (c[i] == ']') {
+
+                StringBuilder sb = new StringBuilder();
+                while (!st.peek().equals("[")) {
+                    sb.insert(0, st.pop());
+                }
+                st.pop();
+
+                int k = Integer.parseInt(st.pop());
+                StringBuilder repeated = new StringBuilder();
+                for (int j = 0; j < k; j++) {
+                    repeated.append(sb);
+                }
+                st.push(repeated.toString());
+                i++;
+            }
+            else {
+                st.push(Character.toString(c[i]));
+                i++;
             }
         }
-        return str;
+        StringBuilder result = new StringBuilder();
+        while (!st.isEmpty()) {
+            result.insert(0, st.pop());
+        }
+        return result.toString();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
