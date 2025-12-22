@@ -1,14 +1,16 @@
+import java.util.Stack;
+
 class StockSpanner {
-    Stack<int[]> st;  // each element is {price, span}
+
+    Stack<int[]> st;
 
     public StockSpanner() {
         st = new Stack<>();
     }
 
     public int next(int price) {
-        int span = 1;  // at least 1 day (today itself)
+        int span = 1;
 
-        // Pop all previous smaller/equal prices and add their spans
         while (!st.isEmpty() && st.peek()[0] <= price) {
             span += st.pop()[1];
         }
