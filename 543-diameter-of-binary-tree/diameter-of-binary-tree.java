@@ -4,28 +4,30 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
  * }
  */
 class Solution {
-    private int diameter = 0;
-
+    int maxi = 0;
     public int diameterOfBinaryTree(TreeNode root) {
-        depth(root);
-        return diameter;
+        if(root == null) return 0;
+        
+        height(root);
+        return maxi;
     }
+    public int height(TreeNode root){
+        if(root == null) return 0;
+        int lh = height(root.left);
+        int rh = height(root.right);
 
-    // Helper: returns the depth of a node
-    private int depth(TreeNode node) {
-        if (node == null) return 0;
+        maxi = Math.max(maxi, lh + rh);
 
-        int leftDepth = depth(node.left);
-        int rightDepth = depth(node.right);
-
-        // Path through this node = leftDepth + rightDepth
-        diameter = Math.max(diameter, leftDepth + rightDepth);
-
-        // Return height of subtree
-        return 1 + Math.max(leftDepth, rightDepth);
+        return 1 + Math.max(lh, rh);
     }
 }
