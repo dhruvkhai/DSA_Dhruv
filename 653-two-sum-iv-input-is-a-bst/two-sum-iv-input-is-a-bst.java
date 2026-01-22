@@ -14,21 +14,13 @@
  * }
  */
 class Solution {
+    Set<Integer> set = new HashSet<>();
     public boolean findTarget(TreeNode root, int k) {
-        List<Integer> list = new ArrayList<>();
-        helper(root, list);
-        int i = 0, j = list.size()-1;
-        while(i < j){
-            if(list.get(i) + list.get(j) == k) return true;
-            if(list.get(i) + list.get(j) > k) j--;
-            else i++;
-        }
-        return false;
-    }
-    public void helper(TreeNode root, List<Integer> list){
-        if(root == null) return;
-        helper(root.left, list);
-        list.add(root.val);
-        helper(root.right, list);
+        if(root == null ) return false;
+
+        if(set.contains(k - root.val)) return true;
+        set.add(root.val);
+
+        return findTarget(root.left, k) || findTarget(root.right, k);
     }
 }
