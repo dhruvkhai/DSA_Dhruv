@@ -1,31 +1,24 @@
 class Solution {
     public void sortColors(int[] nums) {
-        int low = 0;
-        int mid = 0;
-        int high = nums.length - 1;
-        
-        while (mid <= high) {
-            if (nums[mid] == 0) {
-                // Swap nums[low] and nums[mid], move both pointers forward
-                swap(nums, low, mid);
-                low++;
+        int n = nums.length;
+        int l = 0, mid = 0, r = n - 1;
+        while (mid <= r) {
+            if (nums[mid] == 0){
+                int temp = nums[l];
+                nums[l] = nums[mid];
+                nums[mid] = temp;
+                l++;
                 mid++;
-            } else if (nums[mid] == 1) {
-                // Element is in the right place, just move mid forward
+            }
+            else if (nums[mid] == 1) {
                 mid++;
             } else if (nums[mid] == 2) {
-                // Swap nums[mid] and nums[high], decrease high boundary
-                swap(nums, mid, high);
-                high--;
-                // Do NOT increment mid here, because the newly swapped element 
-                // at mid needs to be evaluated in the next iteration.
+                int temp = nums[mid];
+                nums[mid] = nums[r];
+                nums[r] = temp;
+                r--;
             }
         }
-    }
-    
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+        return;
     }
 }
