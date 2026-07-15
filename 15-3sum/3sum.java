@@ -1,23 +1,25 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-    Set<List<Integer>> res = new HashSet<>();
-    Arrays.sort(nums);
-    
-    for (int i = 0; i < nums.length - 2; i++) {
-        // Skip duplicates for the first element
-        if (i > 0 && nums[i] == nums[i - 1]) continue;
-        
-        Set<Integer> seen = new HashSet<>();
-        for (int j = i + 1; j < nums.length; j++) {
-            int complement = -nums[i] - nums[j];
-            if (seen.contains(complement)) {
-                res.add(Arrays.asList(nums[i], complement, nums[j]));
-                // Skip duplicates for the second element
-                while (j + 1 < nums.length && nums[j] == nums[j + 1]) j++;
+        int n = nums.length;
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        for(int  i = 0; i < n -2; i++){
+            if(nums[i] > 0) break;
+            if(i > 0 && nums[i] == nums[i-1]) continue;
+            int left = i + 1, right = n-1;
+            while(left < right){
+                int sum = nums[i] + nums[left] + nums[right];
+                if(sum == 0){
+                    res.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    while(left < right && nums[left] == nums[left +1]) left++;
+                    while(left < right && nums[right] == nums[right - 1]) right--;
+                    left++;
+                    right--;
+                }
+                else if(sum < 0) left++;
+                else right--;
             }
-            seen.add(nums[j]);
         }
+        return res;
     }
-    return new ArrayList<>(res);
-}
 }
