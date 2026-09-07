@@ -1,20 +1,16 @@
 class Solution {
     public int numJewelsInStones(String jewels, String stones) {
-        int n = stones.length(), m = jewels.length(), result = 0;
-        int[] freq = new int[52];
-        for(char c : stones.toCharArray()){
-            if(c >= 'A' && c <= 'Z'){
-                freq[c - 'A']++;
-            }
-            else freq[(c - 'a') + 26]++;
+        int cnt = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for(char ch : stones.toCharArray()){
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         for(char ch : jewels.toCharArray()){
-            if(ch >= 'A' && ch <= 'Z'){
-                result += freq[ch - 'A'];
+            if(map.containsKey(ch)){
+                cnt += map.get(ch);
+                System.out.println(cnt);
             }
-            else result += freq[(ch - 'a') + 26];
-            
         }
-        return result;
+        return cnt;
     }
 }
