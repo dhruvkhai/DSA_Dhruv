@@ -1,22 +1,25 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        if(s.length() == 0 || s.length() == 1) return true;
-        int left = 0, right = s.length()-1;
-        s = s.toLowerCase();
-        char[] arr = s.toCharArray();
-        while(left <= right){
-            char cl = arr[left], cr = arr[right];
-
-            if(((cl <='z' && cl >= 'a') || (cl >= '0' && cl <= '9')) && ((cr <='z' && cr >= 'a') || (cr >= '0' && cr <= '9')) ){
-                if(cl != cr) return false;
-                else{
-                    left++;
-                    right--;
-                }
+        StringBuilder str = new StringBuilder();
+        for(char c : s.toCharArray()){
+            if(c >= 'a'  && c <= 'z') str.append(c);
+            else if(Character.isUpperCase(c)) str.append(Character.toLowerCase(c));
+            else if(Character.isDigit(c)) str.append(c);
+        }
+        int n = str.length();
+        if(n == 1) return true;
+        int i = 0, j = n - 1;
+        while(i <= j){
+            if(checkPalindrome(str, i, j)){
+                i++;
+                j--;
             }
-            else if(!((cl <='z' && cl >= 'a') || (cl >= '0' && cl <= '9'))) left++;
-            else if(!((cr <='z' && cr >= 'a') || (cr >= '0' && cr <= '9'))) right--;
+            else return false;
         }
         return true;
+    }
+    public static boolean checkPalindrome(StringBuilder str, int i, int j){
+        if(str.charAt(i) == str.charAt(j)) return true;
+        else return false;
     }
 }
