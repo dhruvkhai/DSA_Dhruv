@@ -10,20 +10,19 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
+        if(lists == null || lists.length == 0) return null;
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
-        for(ListNode node : lists){
-            if(node != null) pq.offer(node);
+        for(int i = 0 ;  i < lists.length ; i++){
+            if(lists[i] != null) pq.offer(lists[i]);
         }
         ListNode dummy = new ListNode(0);
         ListNode temp = dummy;
-
         while(!pq.isEmpty()){
             ListNode smallest = pq.poll();
             temp.next = smallest;
             temp = temp.next;
-            if(temp.next != null){
-                pq.offer(temp.next);
-            }    
+
+            if(smallest.next != null) pq.offer(smallest.next);
         }
         return dummy.next;
     }
